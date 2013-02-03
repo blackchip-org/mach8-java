@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0"
+      codebase="http://signal.technosci.com/javaws/mach8"
+      href="mach8.jnlp">
+    <information>
+        <title>Mach-8</title>
+        <vendor>Blackchip Software Inc.</vendor>
+        <homepage href="http://www.blackchip.org"/>
+        <description>Mach-8</description>
+        <description kind="short">Mach-8</description>
+        <icon href="icon.png"/>
+	<offline-allowed/>
+	<shortcut>
+	   <desktop/>
+           <menu/>
+	</shortcut>
+    </information>
+    <security>
+        <all-permissions/>
+    </security>
+
+    <resources>
+        <j2se href="http://java.sun.com/products/autodl/j2se" version="1.6+" initial-heap-size="512m"
+              max-heap-size="512m"/>
+        <jar href="Mach8.jar" main="true"/>
+    </resources>
+    <application-desc main-class="org.blackchip.mach8.mach8"/>
+</jnlp>

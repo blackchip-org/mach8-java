@@ -1,0 +1,21 @@
+.org $2100
+
+irqisr
+cprint
+mult8x8
+curpos
+sprint
+memcpy
+scroll
+banner
+ready
+idle
+curup
+curdwn
+curlft
+currgt
+curhme
+curdel
+sysret
+easter
+
